@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var counter: UITextView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        counter.text = "00:00:00"
+        counter.textColor = .whiteColor()
+        counter.textAlignment = .Center
+        counter.font = UIFont.systemFontOfSize(50)
+        counter.backgroundColor = .clearColor()
     }
 
     override func didReceiveMemoryWarning() {

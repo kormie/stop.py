@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					018436761D49081500AC1C05 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ATB5PVNS89;
 					};
 					0184368A1D49081500AC1C05 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -401,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = stop.py/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kormie.taco.info.stop-py";
@@ -412,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = stop.py/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kormie.taco.info.stop-py";
