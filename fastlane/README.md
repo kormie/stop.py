@@ -11,6 +11,11 @@ sudo gem install fastlane
 fastlane ios test_fast
 ```
 Testing
+### ios provision
+```
+fastlane ios provision
+```
+Setup provisioning/certs
 ### ios test
 ```
 fastlane ios test
