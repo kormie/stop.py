@@ -18,8 +18,6 @@ default_platform :ios
 platform :ios do
   before_all do
     ENV["SLACK_URL"] = "https://hooks.slack.com/services/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"
-
-
   end
 
   desc "Testing"

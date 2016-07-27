@@ -3,17 +3,17 @@
   <testsuite name="fastlane.lanes">
     
       
-      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.000492">
+      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.000565">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.000235">
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.000337">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: slack" time="1.749277">
+      <testcase classname="fastlane.lanes" name="2: scan" time="19.451912">
         
       </testcase>
     
