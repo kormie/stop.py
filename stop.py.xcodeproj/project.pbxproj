@@ -14,6 +14,7 @@
 		018436851D49081500AC1C05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018436831D49081500AC1C05 /* LaunchScreen.storyboard */; };
 		018436901D49081500AC1C05 /* stop_pyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184368F1D49081500AC1C05 /* stop_pyTests.swift */; };
 		0184369B1D49081500AC1C05 /* stop_pyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184369A1D49081500AC1C05 /* stop_pyUITests.swift */; };
+		018436B11D493D7A00AC1C05 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018436B01D493D7A00AC1C05 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		018436961D49081500AC1C05 /* stop.pyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stop.pyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0184369A1D49081500AC1C05 /* stop_pyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stop_pyUITests.swift; sourceTree = "<group>"; };
 		0184369C1D49081500AC1C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		018436B01D493D7A00AC1C05 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		018436991D49081500AC1C05 /* stop.pyUITests */ = {
 			isa = PBXGroup;
 			children = (
+				018436B01D493D7A00AC1C05 /* SnapshotHelper.swift */,
 				0184369A1D49081500AC1C05 /* stop_pyUITests.swift */,
 				0184369C1D49081500AC1C05 /* Info.plist */,
 			);
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0184369B1D49081500AC1C05 /* stop_pyUITests.swift in Sources */,
+				018436B11D493D7A00AC1C05 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +491,7 @@
 				018436A11D49081500AC1C05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		018436A21D49081500AC1C05 /* Build configuration list for PBXNativeTarget "stop.pyTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +500,7 @@
 				018436A41D49081500AC1C05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		018436A51D49081500AC1C05 /* Build configuration list for PBXNativeTarget "stop.pyUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +509,7 @@
 				018436A71D49081500AC1C05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.addSubview(counter)
+        
         let views = ["counter": counter]
         counter.text = "00:00:00"
         counter.translatesAutoresizingMaskIntoConstraints = false
@@ -30,13 +31,9 @@ class ViewController: UIViewController {
         counter.textAlignment = .Center
         counter.font = .systemFontOfSize(50)
         counter.backgroundColor = .clearColor()
+        
         self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(startMyTimer)))
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    }jjjj
     
     func startMyTimer() -> Void {
         if timerRunning {

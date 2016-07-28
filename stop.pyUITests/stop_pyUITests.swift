@@ -9,9 +9,15 @@
 import XCTest
 
 class stop_pyUITests: XCTestCase {
-        
+    
+    var app = XCUIApplication()
+    
     override func setUp() {
+        
+        
         super.setUp()
+        setupSnapshot(app)
+        app.launch()
         
         // Put setup code here. This method is called before the invocation of each test method in the class.
         
@@ -29,8 +35,12 @@ class stop_pyUITests: XCTestCase {
     }
     
     func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        snapshot("0-Launch")
+        
+        let view = app.windows.childrenMatchingType(.Any).elementBoundByIndex(0)
+        view.tap()
+        sleep(3)
+        snapshot("0-Timer")
     }
     
 }

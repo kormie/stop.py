@@ -21,6 +21,11 @@ Setup provisioning/certs
 fastlane ios test
 ```
 Runs all the tests
+### ios pictures
+```
+fastlane ios pictures
+```
+Take pics
 ### ios beta
 ```
 fastlane ios beta
